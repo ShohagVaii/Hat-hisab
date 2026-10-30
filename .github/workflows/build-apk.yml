@@ -69,6 +69,26 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Patch legacy plugin Gradle scripts
+        # Some older plugin build.gradle files read flutter.compileSdkVersion
+        # etc. from an extension the new plugin loader no longer exposes the
+        # same way (seen with app_links 6.4.1: "unknown property 'flutter'").
+        # Replace those reads with this app's literal values in the pub cache.
+        run: |
+          PUBDIR="${PUB_CACHE:-$HOME/.pub-cache}"
+          echo "pub cache: $PUBDIR"
+          find "$PUBDIR/hosted/pub.dev" -path "*/android/build.gradle" -print0 2>/dev/null | while IFS= read -r -d '' f; do
+            if grep -q "flutter\." "$f"; then
+              sed -i \
+                -e 's/flutter\.compileSdkVersion/34/g' \
+                -e 's/flutter\.targetSdkVersion/34/g' \
+                -e 's/flutter\.minSdkVersion/24/g' \
+                -e 's/flutter\.ndkVersion/"25.1.8937393"/g' \
+                "$f"
+              echo "patched: $f"
+            fi
+          done
+
       - name: Run tests
         run: flutter test
 
