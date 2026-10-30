@@ -1,1 +1,42 @@
-IyBCdWlsZGluZyB0aGUgQVBLIG9uIEdpdEh1YiBBY3Rpb25zCgo+IFJlcG8gbGF5b3V0IG5vdGU6IHRoZSBwcm9qZWN0IGl0c2VsZiBsaXZlcyBpbiBgYXJjaGl2ZS9gIGFzIGEgc3BsaXQgWklQCj4gKGBoYXQtaGlzYWItYXBwLnppcC5wYXJ0LTAwYCDigKYgYHBhcnQtMTBgKSBiZWNhdXNlIHRoZSB1cGxvYWQgY29ubmVjdG9yCj4gY2Fubm90IHB1c2ggYSB3aG9sZSBmb2xkZXIgdHJlZSBhdCBvbmNlLiBUaGUgd29ya2Zsb3cgam9pbnMgdGhlIHBhcnRzLAo+IHVucGFja3MgdGhlIHByb2plY3QsIGFuZCBmZXRjaGVzIHRoZSBIaW5kIFNpbGlndXJpIGZvbnRzIGZyb20gR29vZ2xlCj4gRm9udHMgKHRoZXkgYXJlIHRoZSBvbmx5IGZpbGVzIG5vdCBpbnNpZGUgdGhlIGFyY2hpdmUpLiBFdmVyeXRoaW5nIGVsc2UsCj4gaW5jbHVkaW5nIHRoZSBJbnRlciBmb250cyBhbmQgbGF1bmNoZXIgaWNvbnMsIGlzIGluIHRoZSBhcmNoaXZlIGJ5dGUgZm9yCj4gYnl0ZS4gVG8gcmVzdG9yZSB0aGUgcHJvamVjdCBsb2NhbGx5LCBkb3dubG9hZCBhbGwgcGFydHMsIGpvaW4gdGhlbQo+IChgY2F0IGhhdC1oaXNhYi1hcHAuemlwLnBhcnQtKiA+IGhhdC1oaXNhYi1hcHAuemlwYCkgYW5kIHVuemlwLgoKVGhlIHdvcmtmbG93IGAuZ2l0aHViL3dvcmtmbG93cy9idWlsZC1hcGsueW1sYCBidWlsZHMgdGhlIHJlbGVhc2UgQVBLIG9uCmV2ZXJ5IHB1c2ggdG8gYG1haW5gIChhbmQgZnJvbSB0aGUgQWN0aW9ucyB0YWIgd2l0aCAiUnVuIHdvcmtmbG93IikuIEl0IHJ1bnMKdGhlIHRlc3RzIGZpcnN0LCB0aGVuIHB1Ymxpc2hlcyB0aGUgQVBLIHRvIHRoZSByZXBvc2l0b3J5J3MgKipSZWxlYXNlcyoqCnBhZ2UsIHNvIGl0IGNhbiBiZSBkb3dubG9hZGVkIGFuZCBpbnN0YWxsZWQgZGlyZWN0bHkuCgojIyBPbmUtdGltZSBzZXR1cDogc2lnbmluZyBzZWNyZXRzCgpUaGUgcmVsZWFzZSBrZXlzdG9yZSBpcyBuZXZlciBjb21taXR0ZWQuIEFkZCB0aGVzZSA0IHJlcG9zaXRvcnkgc2VjcmV0cwp1bmRlciBTZXR0aW5ncyDihpIgU2VjcmV0cyBhbmQgdmFyaWFibGVzIOKGkiBBY3Rpb25zIOKGkiBOZXcgcmVwb3NpdG9yeSBzZWNyZXQ6Cgp8IFNlY3JldCBuYW1lIHwgVmFsdWUgfAp8LS0tfC0tLXwKfCBgS0VZU1RPUkVfQjY0YCB8IFRoZSByZWxlYXNlIGtleXN0b3JlIGZpbGUsIGJhc2U2NC1lbmNvZGVkIChzZWUgYmVsb3cpIHwKfCBgS0VZU1RPUkVfUEFTU1dPUkRgIHwgVGhlIGtleXN0b3JlIChzdG9yZSkgcGFzc3dvcmQgfAp8IGBLRVlfQUxJQVNgIHwgVGhlIGtleSBhbGlhcyBpbnNpZGUgdGhlIGtleXN0b3JlIHwKfCBgS0VZX1BBU1NXT1JEYCB8IFRoZSBrZXkgcGFzc3dvcmQgfAoKVGhlIHBhc3N3b3JkcyBhbmQgYWxpYXMgYXJlIGluIHRoZSBga2V5c3RvcmUucHJvcGVydGllc2Aga2VwdCB3aXRoIHRoZQpzaWduaW5nLWtleSBiYWNrdXAgKGBoYXQtaGlzYWItc2lnbmluZy1rZXktU0VQQVJBVEUuemlwYCkuIFVudGlsIHRoZXNlCnNlY3JldHMgZXhpc3QsIHRoZSB3b3JrZmxvdyBzdG9wcyBhdCB0aGUgIkNoZWNrIHNpZ25pbmcgc2VjcmV0cyIgc3RlcCDigJQKdGhhdCBmYWlsdXJlIGlzIGV4cGVjdGVkIG9uIHRoZSBmaXJzdCBydW4uCgpUbyBiYXNlNjQtZW5jb2RlIHRoZSBrZXlzdG9yZSBvbiBBbmRyb2lkIChUZXJtdXgpOgoKYGBgYmFzaApiYXNlNjQgLXcgMCBoYXQtaGlzYWItcmVsZWFzZS5rZXlzdG9yZSA+IGtleXN0b3JlLmI2NC50eHQKYGBgCgpQYXN0ZSB0aGUgd2hvbGUgY29udGVudCBvZiBga2V5c3RvcmUuYjY0LnR4dGAgYXMgdGhlIGBLRVlTVE9SRV9CNjRgIHZhbHVlLgo=
+# Building the APK on GitHub Actions
+
+> Repo layout note: the project itself lives in `archive/` as a split ZIP
+> (`hat-hisab-app.zip.part-00` … `part-10`) because the upload connector
+> cannot push a whole folder tree at once. The workflow joins the parts,
+> unpacks the project, and fetches the Hind Siliguri fonts from Google
+> Fonts (they are the only files not inside the archive). Everything else,
+> including the Inter fonts and launcher icons, is in the archive byte for
+> byte. To restore the project locally, download all parts, join them
+> (`cat hat-hisab-app.zip.part-* | base64 -d > hat-hisab-app.zip`) and unzip.
+Note: each part file holds base64 text (the upload path stores text), which
+is why the decode step is needed.
+
+The workflow `.github/workflows/build-apk.yml` builds the release APK on
+every push to `main` (and from the Actions tab with "Run workflow"). It runs
+the tests first, then publishes the APK to the repository's **Releases**
+page, so it can be downloaded and installed directly.
+
+## One-time setup: signing secrets
+
+The release keystore is never committed. Add these 4 repository secrets
+under Settings → Secrets and variables → Actions → New repository secret:
+
+| Secret name | Value |
+|---|---|
+| `KEYSTORE_B64` | The release keystore file, base64-encoded (see below) |
+| `KEYSTORE_PASSWORD` | The keystore (store) password |
+| `KEY_ALIAS` | The key alias inside the keystore |
+| `KEY_PASSWORD` | The key password |
+
+The passwords and alias are in the `keystore.properties` kept with the
+signing-key backup (`hat-hisab-signing-key-SEPARATE.zip`). Until these
+secrets exist, the workflow stops at the "Check signing secrets" step —
+that failure is expected on the first run.
+
+To base64-encode the keystore on Android (Termux):
+
+```bash
+base64 -w 0 hat-hisab-release.keystore > keystore.b64.txt
+```
+
+Paste the whole content of `keystore.b64.txt` as the `KEYSTORE_B64` value.
