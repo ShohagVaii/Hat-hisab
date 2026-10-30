@@ -18,7 +18,7 @@ jobs:
 
       - name: Unpack project archive
         run: |
-          cat archive/hat-hisab-app.zip.part-* > /tmp/hat-hisab-app.zip
+          cat archive/hat-hisab-app.zip.part-* | base64 -d > /tmp/hat-hisab-app.zip
           unzip -q -o /tmp/hat-hisab-app.zip
           chmod +x android/gradlew
 
