@@ -1,4 +1,4 @@
-.name: Build Hat Hisab APK
+name: Build Hat Hisab APK
 
 # Push to main or manual "Run workflow" from the Actions tab.
 on:
