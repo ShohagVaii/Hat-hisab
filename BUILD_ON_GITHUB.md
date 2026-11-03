@@ -11,7 +11,7 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **FinTrack হাট হিসাব v1.5.1+12** (audit patch: PIN fail-closed, notification receivers + ID allocation, sync retry probe, closing dedupe + partial index; sync pull
+Current archive: **FinTrack হাট হিসাব v1.5.2+13** (user fixes: sync real-error surfacing + full constraint audit, calculator live preview + tally page link, age date field 1900-2100, back previous-tab + splash, session long-press delete; sync pull
 root-cause fix, docs/08 account flows, finance budget/goal sync, PDF redesign
 with CREDIT: SHOHAG VAII + download QR, UI fixes).
 
