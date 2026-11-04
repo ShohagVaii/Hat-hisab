@@ -11,7 +11,7 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **FinTrack হাট হিসাব v1.5.2+13** (user fixes: sync real-error surfacing + full constraint audit, calculator live preview + tally page link, age date field 1900-2100, back previous-tab + splash, session long-press delete; sync pull
+Current archive: **Fin Track v1.5.3+14** (SEPARATION release: hat/personal accounts fully split + new Hat Cash wallet (schema 8), bottom-nav expenses tab removed, loans multi-person fix, in-app updater now checks GitHub Releases, fuel cost auto-mirrored into personal expenses, app renamed Fin Track + new icon; sync pull fix, real sync errors, PIN fail-closed all included).
 root-cause fix, docs/08 account flows, finance budget/goal sync, PDF redesign
 with CREDIT: SHOHAG VAII + download QR, UI fixes).
 
