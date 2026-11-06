@@ -11,7 +11,7 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.3+14** (SEPARATION release: hat/personal accounts fully split + new Hat Cash wallet (schema 8), bottom-nav expenses tab removed, loans multi-person fix, in-app updater now checks GitHub Releases, fuel cost auto-mirrored into personal expenses, app renamed Fin Track + new icon; sync pull fix, real sync errors, PIN fail-closed all included).
+Current archive: **Fin Track v1.5.4+15** (finance audit release: month navigation everywhere in Finance, transaction list reconciles exactly with month summary (mother/DPS/maintenance rows added), summary breakdown lines, budget rename hook + onnanno card + dedupe, exact limit prefill, goal edit/withdraw + overdue flag, budget alert banner, balance loading placeholder; 118/118 tests).
 root-cause fix, docs/08 account flows, finance budget/goal sync, PDF redesign
 with CREDIT: SHOHAG VAII + download QR, UI fixes).
 
