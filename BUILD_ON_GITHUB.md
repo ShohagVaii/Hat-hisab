@@ -11,7 +11,7 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.4+15** (finance audit release: month navigation everywhere in Finance, transaction list reconciles exactly with month summary (mother/DPS/maintenance rows added), summary breakdown lines, budget rename hook + onnanno card + dedupe, exact limit prefill, goal edit/withdraw + overdue flag, budget alert banner, balance loading placeholder; 118/118 tests).
+Current archive: **Fin Track v1.5.5+16** (bike add buttons on both tabs, settings backup merged to one entry, profile photo (local), shared period selector (today/week/month/year/custom) on income+expense lists and reports custom range, custom notifications/reminders with date-time scheduling, calendar manual-only marks + monthly hat summary, instant-refresh fixes (dashboard revision-driven, sync-pull bump, finance-write sync trigger), exit-confirm holes closed (lock screen + onboarding PopScope, notification tap lands on shell first); 158/158 tests).
 root-cause fix, docs/08 account flows, finance budget/goal sync, PDF redesign
 with CREDIT: SHOHAG VAII + download QR, UI fixes).
 
