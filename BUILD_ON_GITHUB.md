@@ -11,10 +11,7 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.10+21** (third run of the same archive —
-the first two v1.5.10 runs failed at the "Build release APK" step because
-the runner could not download the Gradle 8.7 distribution zip; tests
-passed both times and the app source is unchanged). (Phase 5: account password change
+Current archive: **Fin Track v1.6.0+22** (Phase 6: feature batch
 in Settings → Profile — current-password re-authentication via Supabase,
 then updateUser; clearly separated from the app PIN, with logged-out and
 network-error states in Bengali).
