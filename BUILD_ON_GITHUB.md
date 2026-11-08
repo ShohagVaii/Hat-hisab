@@ -11,13 +11,13 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.7+18** (Phase 2: unified বাকি হিসাব screen
-with one-tap settle, fuel/maintenance wallet pickers, wallet balance
-breakdown, wallet-delete guard with reassign, closed-session edit/delete
-with closing-totals recompute, fuel-mirror edit/delete from the expense
-list, and the hardened two-source update check).
+Current archive: **Fin Track v1.5.8+19** (Phase 3: category-wise income and
+expense breakdowns with bar charts in Reports and in the PDF, full expense
+breakdown no longer capped at top 8, app-logo watermark on the dashboard,
+the reports screen and the PDF body, and the PDF download QR updated to
+the current release).
 
 The workflow `.github/workflows/build-apk.yml` builds the release APK on
 every push to `main` (and from the Actions tab with "Run workflow"). It runs
 the tests first, then publishes the APK to the repository's **Releases**
-as `hat-hisab-v1.5.7.apk` under tag `v1.5.7`.
+as `hat-hisab-v1.5.8.apk` under tag `v1.5.8`.
