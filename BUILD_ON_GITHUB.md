@@ -11,8 +11,10 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.6.0+22** (re-push with the established
-two-digit part names — the first v1.6.0 push accidentally used three-digit
+Current archive: **Fin Track v1.6.0+22** (third run — the second run
+unpacked and passed tests but the runner again failed to download the
+Gradle 8.7 distribution zip at the APK step; source unchanged)
+(re-push with the established two-digit part names — the first v1.6.0 push accidentally used three-digit
 part names, leaving two interleaved part sets in archive/ and breaking
 the workflow's unpack step; this push restores the two-digit set and
 empties the stray three-digit files in the same commit)
