@@ -1,7 +1,7 @@
 # Building the APK on GitHub Actions
 
 > Repo layout note: the project itself lives in `archive/` as a split ZIP
-> (`hat-hisab-app.zip.part-00` … `part-12`) because the upload connector
+> (`hat-hisab-app.zip.part-00` … `part-13`) because the upload connector
 > cannot push a whole folder tree at once. The workflow joins the parts,
 > unpacks the project, and fetches the Hind Siliguri fonts from Google
 > Fonts (they are the only files not inside the archive). Everything else,
@@ -11,12 +11,13 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.6+17** (Phase 1: global exit-confirm on
-every tab root + lock/auth screens, instant-update sweep incl. setMeta
-revision bump, pull-to-refresh on dashboard/income/expense/reports, and the
-new synced Notepad — notes table local schema 9 + Supabase `notes` table).
+Current archive: **Fin Track v1.5.7+18** (Phase 2: unified বাকি হিসাব screen
+with one-tap settle, fuel/maintenance wallet pickers, wallet balance
+breakdown, wallet-delete guard with reassign, closed-session edit/delete
+with closing-totals recompute, fuel-mirror edit/delete from the expense
+list, and the hardened two-source update check).
 
 The workflow `.github/workflows/build-apk.yml` builds the release APK on
 every push to `main` (and from the Actions tab with "Run workflow"). It runs
 the tests first, then publishes the APK to the repository's **Releases**
-as `hat-hisab-v1.5.6.apk` under tag `v1.5.6`.
+as `hat-hisab-v1.5.7.apk` under tag `v1.5.7`.
