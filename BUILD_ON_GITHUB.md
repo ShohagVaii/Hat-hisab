@@ -1,7 +1,7 @@
 # Building the APK on GitHub Actions
 
 > Repo layout note: the project itself lives in `archive/` as a split ZIP
-> (`hat-hisab-app.zip.part-00` … `part-11`) because the upload connector
+> (`hat-hisab-app.zip.part-00` … `part-12`) because the upload connector
 > cannot push a whole folder tree at once. The workflow joins the parts,
 > unpacks the project, and fetches the Hind Siliguri fonts from Google
 > Fonts (they are the only files not inside the archive). Everything else,
@@ -11,36 +11,12 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.5+16** (bike add buttons on both tabs, settings backup merged to one entry, profile photo (local), shared period selector (today/week/month/year/custom) on income+expense lists and reports custom range, custom notifications/reminders with date-time scheduling, calendar manual-only marks + monthly hat summary, instant-refresh fixes (dashboard revision-driven, sync-pull bump, finance-write sync trigger), exit-confirm holes closed (lock screen + onboarding PopScope, notification tap lands on shell first); 158/158 tests).
-root-cause fix, docs/08 account flows, finance budget/goal sync, PDF redesign
-with CREDIT: SHOHAG VAII + download QR, UI fixes).
+Current archive: **Fin Track v1.5.6+17** (Phase 1: global exit-confirm on
+every tab root + lock/auth screens, instant-update sweep incl. setMeta
+revision bump, pull-to-refresh on dashboard/income/expense/reports, and the
+new synced Notepad — notes table local schema 9 + Supabase `notes` table).
 
 The workflow `.github/workflows/build-apk.yml` builds the release APK on
 every push to `main` (and from the Actions tab with "Run workflow"). It runs
 the tests first, then publishes the APK to the repository's **Releases**
-page, so it can be downloaded and installed directly.
-
-## One-time setup: signing secrets
-
-The release keystore is never committed. Add these 4 repository secrets
-under Settings → Secrets and variables → Actions → New repository secret:
-
-| Secret name | Value |
-|---|---|
-| `KEYSTORE_B64` | The release keystore file, base64-encoded (see below) |
-| `KEYSTORE_PASSWORD` | The keystore (store) password |
-| `KEY_ALIAS` | The key alias inside the keystore |
-| `KEY_PASSWORD` | The key password |
-
-The passwords and alias are in the `keystore.properties` kept with the
-signing-key backup (`hat-hisab-signing-key-SEPARATE.zip`). Until these
-secrets exist, the workflow stops at the "Check signing secrets" step —
-that failure is expected on the first run.
-
-To base64-encode the keystore on Android (Termux):
-
-```bash
-base64 -w 0 hat-hisab-release.keystore > keystore.b64.txt
-```
-
-Paste the whole content of `keystore.b64.txt` as the `KEYSTORE_B64` value.
+as `hat-hisab-v1.5.6.apk` under tag `v1.5.6`.
