@@ -11,7 +11,9 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.5.10+21** (Phase 5: account password change
+Current archive: **Fin Track v1.5.10+21** (re-push of the same archive —
+the first v1.5.10 run failed at the "Build release APK" step after tests
+passed; no source change). (Phase 5: account password change
 in Settings → Profile — current-password re-authentication via Supabase,
 then updateUser; clearly separated from the app PIN, with logged-out and
 network-error states in Bengali).
