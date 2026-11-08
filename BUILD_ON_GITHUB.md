@@ -11,9 +11,10 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.6.0+22** (third run — the second run
-unpacked and passed tests but the runner again failed to download the
-Gradle 8.7 distribution zip at the APK step; source unchanged)
+Current archive: **Fin Track v1.6.0+22** (fourth run — the Gradle 8.7
+-all distribution download from the runner kept failing (GitHub release
+CDN flake, three runs in a row), so the wrapper now fetches the smaller
+-official gradle-8.7-bin.zip instead; app source unchanged)
 (re-push with the established two-digit part names — the first v1.6.0 push accidentally used three-digit
 part names, leaving two interleaved part sets in archive/ and breaking
 the workflow's unpack step; this push restores the two-digit set and
