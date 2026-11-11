@@ -11,20 +11,16 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.6.0+22** (fourth run — the Gradle 8.7
--all distribution download from the runner kept failing (GitHub release
-CDN flake, three runs in a row), so the wrapper now fetches the smaller
--official gradle-8.7-bin.zip instead; app source unchanged)
-(re-push with the established two-digit part names — the first v1.6.0 push accidentally used three-digit
-part names, leaving two interleaved part sets in archive/ and breaking
-the workflow's unpack step; this push restores the two-digit set and
-empties the stray three-digit files in the same commit)
-(Phase 6: feature batch
-in Settings → Profile — current-password re-authentication via Supabase,
-then updateUser; clearly separated from the app PIN, with logged-out and
-network-error states in Bengali).
+Current archive: **Fin Track v1.7.1+24** (Arena-fix batch — money line-total
+integer arithmetic fixing a silent ৳1 floor error, account-scoped sync pull
+watermarks with (updated_at, id) pagination, honest sync status, two-device
+conflict protection with conditional (CAS) push writes, backup export scoped
+to the exporting account with a foreign-backup import warning, note-editor
+autosave/delete serialization fixing duplicate notes, and pulled-row dedupe
+aliases so merged wallets/categories no longer orphan child rows. App source
+only; the established two-digit part names are kept.)
 
 The workflow `.github/workflows/build-apk.yml` builds the release APK on
 every push to `main` (and from the Actions tab with "Run workflow"). It runs
 the tests first, then publishes the APK to the repository's **Releases**
-as `hat-hisab-v1.5.10.apk` under tag `v1.5.10`.
+as `hat-hisab-v1.7.1.apk` under tag `v1.7.1`.
