@@ -11,16 +11,16 @@
 > Note: each part file holds base64 text (the upload path stores text), which
 > is why the decode step is needed.
 
-Current archive: **Fin Track v1.7.1+24** (Arena-fix batch — money line-total
-integer arithmetic fixing a silent ৳1 floor error, account-scoped sync pull
-watermarks with (updated_at, id) pagination, honest sync status, two-device
-conflict protection with conditional (CAS) push writes, backup export scoped
-to the exporting account with a foreign-backup import warning, note-editor
-autosave/delete serialization fixing duplicate notes, and pulled-row dedupe
-aliases so merged wallets/categories no longer orphan child rows. App source
-only; the established two-digit part names are kept.)
+Current archive: **Fin Track v1.7.5+28** (Notes V2.2 — rich-text
+formatting in notes (bold/italic/underline/H1/H2 with editor toolbar and
+preview; markers stripped in cards, search, share and reminder text),
+checklist tick straight from the note card with Undo, note-delete Undo
+restoring items, images and the reminder, note sort options
+(updated/created/title), a light/dark/system theme toggle in Settings,
+and a reminder failure log with a test-notification button in Settings.
+App source only; the established two-digit part names are kept.)
 
 The workflow `.github/workflows/build-apk.yml` builds the release APK on
 every push to `main` (and from the Actions tab with "Run workflow"). It runs
 the tests first, then publishes the APK to the repository's **Releases**
-as `hat-hisab-v1.7.1.apk` under tag `v1.7.1`.
+as `hat-hisab-v1.7.5.apk` under tag `v1.7.5`.
